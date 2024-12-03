@@ -1,9 +1,10 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "start": "node server.js",
+		"dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
     "url": "https://github.com/Tutu852/uberClone/issues"
   },
   "homepage": "https://github.com/Tutu852/uberClone#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.6",
+    "express": "^4.21.1"
+  }
 }
